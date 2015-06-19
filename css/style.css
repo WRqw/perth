@@ -1,0 +1,251 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: 'black_jack';
+    src: url("../fonts/black_jack.ttf") format("truetype");       
+}
+@font-face{
+	font-family: 'Proxima Nova Light';
+    src: url("../fonts/ProximaNova-Light.otf") format('opentype') 
+}
+@font-face{
+	font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular.ttf") format("truetype");
+}
+@font-face{
+	font-family: 'Proxima Nova Bold';
+    src: url("../fonts/proximanova-bold.otf") format('opentype') 
+}
+.clearfix:before,
+.clearfix:after {
+
+     content: "";
+     display: table;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.wrapper-head{
+	margin: 0 auto;
+	width: 1260px;
+	height: 652px;
+	overflow: hidden;
+	background: #63c2e7;
+
+}
+.content{
+	width: 940px;
+	margin: 0 auto;
+}
+.rightlines{
+	text-align: right;
+}
+.logo{
+	float: left;
+}
+.rightlines a img{
+	padding-top: 38px;
+}
+.toptitle h1{
+	font: 70px/25px 'black_jack';
+
+}
+.toptitle h3{
+	font: 35px/25px 'Proxima Nova Light';
+}
+.toptitle{
+	margin-top: 137px;
+	text-align: right;
+	color: #ffffff;
+}
+.toptitle h3> span{
+	font: 35px/25px 'Proxima Nova Bold';
+	font-style: italic;
+
+}
+.button{
+	font: 15px/25px 'ProximaNovaRegular';
+	border: 2px solid white;
+	padding-top: 12px;
+	padding-left: 27px;
+	padding-right: 60px;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+}
+.buttons{
+	position: relative;
+}
+a div.button:after{
+	position: absolute;
+	content: '';
+	background: url(../img/cloudic.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	top: 20px;
+	right: 30px;
+
+	
+}
+
+a .button{
+	float: right;
+}
+ul {
+	list-style:none;
+
+}
+a, a:visited{
+	color: white;
+	text-decoration:none;
+}
+.iphone{
+	float: left;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.longwindhead{
+	width: 1260px;
+	background: #f4f4f4;
+	height: 650px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.ipad{
+	float: right;
+	margin-top: 150px;
+}
+.title{
+	margin-top: 147px;
+}
+p.title{
+	font: 40px/25px 'Proxima Nova Light', serif;
+	color: #545454;
+}
+p.subtitle{
+	font: 16px/25px 'ProximaNovaRegular', serif;
+	color: #7e7e7e;
+	margin-bottom: 19px;
+}
+.subtitle{
+	width: 550px;
+}
+p.subtitlecurs{
+	font: 16px/25px 'ProximaNovaRegular', serif;
+	font-style: italic;
+	color: #7e7e7e;
+	padding-left: 18px;
+}
+.subtitlecurs{
+	border-left: 6px solid #4eacdd;
+	width: 550px;
+}
+.hellobut{
+	margin-top: 65px;
+	position: relative;
+	width: 170px;
+}
+.buttonhello{
+	font: 15px/25px 'ProximaNovaRegular';
+	color: #14af8f;
+	border: 2px solid #14af8f;
+	text-transform: uppercase;
+	padding: 10px 30px 10px 20px;
+}
+a div.buttonhello:after{
+	position: absolute;
+	content: '';
+	background: url(../img/hellobutton.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	top: 18px;
+	left: 115px;
+
+	
+}
+.middlesection{
+	width: 1260px;
+	background: white;
+}
+.mac{
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	margin-top: 50px;
+	width: 470px;
+	height: 300px;
+	background: #474e5d;
+	overflow: hidden;
+	border: 1px solid #676d7a;
+
+}
+.circle{
+	width: 8px;
+	height: 8px;
+	background: #a5a5a5;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin: 5px auto;
+
+}
+.mac>.ekran{
+	width: 430px;
+	background: #70c6eb;
+	height: 260px;
+	margin-left: 18px;
+	border: 1px solid #676d7a;
+}
+.niz{
+	overflow: hidden;
+	width: 470px;
+	height: 44px;
+	background: #e8ebf0;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+}
+.bottomcircle{
+	width: 24px;
+	height: 24px;
+	margin: 10px auto;
+	background: #474e5d;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.bottomholder{
+	width: 470px;
+	height: 50px;
+	
+}
+img.holder{
+	width: 160px;
+	margin-left: 155px;
+}
+.retina{
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	margin-left: 200px;
+	width: 320px;
+	height: 220px;
+	background: #474e5d;
+	overflow: hidden;
+	border: 1px solid #676d7a;
+}
+.retina>.ekran{
+	width: 298px;
+	background: #f79231;
+	height: 186px;
+	margin-left: 18px;
+	border: 1px solid #676d7a;
+	margin: 0 auto;
+}
+.bottomretina{
+	width: 394px;
+	margin-left: 160px;
+}
