@@ -18,6 +18,15 @@ body{
 	font-family: 'Proxima Nova Bold';
     src: url("../fonts/proximanova-bold.otf") format('opentype') 
 }
+@font-face{
+	font-family: 'Proxima Nova SemiBold';
+    src: url("../fonts/proximanova-semibold.otf") format('opentype') 
+}
+@font-face{
+	font-family: 'proximanova-regitalic';
+    src: url("../fonts/proximanova-regitalic.otf") format('opentype') 
+}
+
 .clearfix:before,
 .clearfix:after {
 
@@ -36,7 +45,7 @@ body{
 	width: 1260px;
 	height: 652px;
 	overflow: hidden;
-	background: #63c2e7;
+	background: url(../img/header-bg.png) #63c2e7;
 
 }
 .content{
@@ -140,7 +149,7 @@ p.subtitle{
 	width: 550px;
 }
 p.subtitlecurs{
-	font: 16px/25px 'ProximaNovaRegular', serif;
+	font: 16px/25px 'proximanova-regitalic', serif;
 	font-style: italic;
 	color: #7e7e7e;
 	padding-left: 18px;
@@ -174,11 +183,13 @@ a div.buttonhello:after{
 }
 .middlesection{
 	width: 1260px;
+	height: 650px;
 	background: white;
 	overflow: hidden;
 }
 .appleelements{
 	width: 762px;
+	overflow: hidden;
 	margin-right: auto;
 }
 .mac{
@@ -195,7 +206,7 @@ a div.buttonhello:after{
 	position: relative;
 	z-index: 1;
 	top: 284px;
-	right: 55px;
+	right: -154px;
 }
 .circle{
 	width: 8px;
@@ -255,9 +266,12 @@ img.holder{
 	z-index: 2;
 	position: relative;
 	top: 90px;
-	right: 248px;
+	right: 38px;
 
 }
+210
+right: 248px;
+
 .retina>.circle{
 	width: 4px;
 	height: 4px;
@@ -284,7 +298,7 @@ img.holder{
 	position: relative;
 	z-index: 3;
 	bottom: 200px;
-	left: 450px;
+	left: 660px;
 }
 .ipadbottom{
 	width: 175px;
@@ -323,8 +337,8 @@ img.holder{
 .ipadminiposition{
 	z-index: 4;
 	position: relative;
-	bottom: 392px;
-	left: 640px;
+	bottom: 380px;
+	left: 850px;
 
 }
 
@@ -362,13 +376,12 @@ img.holder{
 	position: relative;
 	width: 73px;
 	bottom: 522px;
-	left: 590px;
+	left: 800px;
 }
 .iphonebottom{
 
-	
 	width: 75px;
-	height: 156px;
+	height: 160px;
 	background: #474e5d;
 	-webkit-border-top-right-radius: 10px;
 	-webkit-border-top-left-radius: 10px;
@@ -407,9 +420,218 @@ img.holder{
 	border: 1px solid #676d7a;
 	margin-top: 5px;
 }
-.columndog{
-	margin-left: auto;
-	width: 396px;
-	height: auto;
-	background: black;
+.bottomcircleip{
+	width: 16px;
+	height: 16px;
+	background: #f6f6f6;
+	-moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: 3px auto;
+    
 }
+.columndog{
+	z-index: 6;
+	position: relative;
+	margin-left: auto;
+	width: 366px;
+	bottom: 1200px;
+	left: 180px;
+}
+h5.getdog{
+	font: 40px/25px 'Proxima Nova Light', serif;
+	color: #545454;
+}
+p.columndogsubttop{
+	font: 15px/25px 'Proxima Nova SemiBold', serif;
+	font-style: italic;
+	color: #474e5d;
+}
+p.columndogsubtbot{
+	font: 15px/25px 'ProximaNovaRegular', serif;
+	color: #7e7e7e;
+
+}
+a div.coldoglink{
+	width: 225px;
+	padding: 12px 22px;
+	font: 15px/25px 'ProximaNovaRegular', serif;
+	text-transform: uppercase;
+	color: #ea4c89;
+	border: 2px solid #ea4c89;
+	text-align: center;
+}
+  div.coldoglink:after{
+ 	display: inline-block;
+ 	position: relative;
+ 	top: 9px;
+ 	left: 15px;
+	content: '';
+	background: url(../img/dribbble-icon.png) no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.salesection{
+	background: url(../img/salebg.png) no-repeat #13c1ac;
+	width: 1260px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+.saletitle{
+	font: 40px 'ProximaNovaRegular', serif;
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+	padding-top: 100px;
+}
+.salebut{
+	
+	width: 220px;
+	margin:  0 auto;
+}
+a div.saleelement{
+	text-align: center;
+	font: 15px 'ProximaNovaRegular', serif;
+	color: #fffefe;
+	text-transform: uppercase;
+	padding: 20px 35px;
+	border: 2px solid #ffffff;
+	margin-top: 20px;
+}
+span.beer{
+	font: 15px 'Proxima Nova Bold';
+	font-style: italic;
+	color: #fffefe;
+}
+.saleelement:after{
+	display: inline-block;
+ 	position: relative;
+ 	top: 9px;
+ 	left: 15px;
+	content: '';
+	background: url(../img/beer-icon.png) no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.footer{
+	background: #f4f4f4;
+	width: 1260px;
+	margin: 0 auto;
+}
+.sprite a{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	margin: 0 3px;
+	border: 3px solid #545454;
+	border-radius: 50%;
+	background: url(../img/social-sprite.png) no-repeat;
+}
+.sprite{
+	text-align: center;
+	padding-top: 242px;
+}
+.sprite a.ic-fb{
+	background-position: -56px 0;
+}
+.sprite a.ic-tw{
+	background-position: -112px 0;
+}
+.sprite a.ic-pl{
+	background-position: -168px 0;
+}
+.newssub{
+	width: 500px;
+	margin: auto;
+	padding-bottom: 240px;
+}
+form{
+	padding-top: 20px;
+	width: 200px;
+	margin-left:auto;
+}
+#email input[type="text"]{
+	float: right;
+	padding: 15px 80px 15px 15px;
+	border-radius: 10px;
+	box-shadow: none;
+	border: none;
+	font: 14px 'Proxima Nova SemiBold', serif;
+	font-style: italic;
+	color: #d3d3d3;
+	resize: none;
+	vertical-align: middle;
+	width: 180px;
+	z-index: 1;
+
+
+}
+
+input:focus {
+    outline:none;
+}
+.subscribe{
+	margin-left: 15px;
+	float: left;
+	font: 16px'Proxima Nova SemiBold', serif;
+	font-style: italic;
+	color: #545454;
+	padding-top: 17px;
+	padding-bottom: 14px;
+	
+}
+.pole{
+	width: 222px;
+	min-height: 40px
+}
+input[type="submit"] {
+    width: 20px; 
+    height: 20px; 
+    border: none; 
+    position: relative;
+    background: url(../img/iconemail.png) no-repeat;
+    bottom: 30px;
+    left: 180px;
+    cursor: pointer;
+    z-index: 2;
+   }
+   .toplink{
+
+	
+   }
+ .toplink{
+	margin-left: auto;
+   	width: 40px;
+   	height: 40px;
+  	background-color: #f4f4f4;
+   	margin-right: 60px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	position: relative;
+	bottom: 40px;
+	margin-top: 5px;
+}
+   .footerbottom{
+   	width: 1260px;
+   	margin: 0 auto;
+   	
+   }
+   .copyright{
+   	text-align: center;
+   	font: 12px 'proximanova-regitalic', serif;
+   	color: #545454;
+   	padding-top: 50px;
+
+   }
+   .wordpert{
+   	font: 12px 'ProximaNovaRegular', serif;
+   	color: #6dc5ea;
+   }
+   .toplink img{
+   	margin-top: 15px;
+   	margin-left: 13px;
+   }
+ 
+ 
